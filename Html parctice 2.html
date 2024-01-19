@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html parctice 2</title>
+    <style>
+        ul{
+            border: 5px solid violet;
+           border-radius: 25px;
+            outline-width: 5px;
+            outline-color: blue;
+            outline-style: solid;
+            background-color: aqua;
+        }
+        marquee{
+            color: dodgerblue;
+            font-size: 50px;
+            font-style: italic;
+        }
+        input{
+            background: aqua;
+        }
+        input:hover{
+            background: white;
+        }
+        textarea{
+            background: aqua;
+        }
+        textarea:hover{
+            background: white;
+        }
+        .box1{
+            width: 500px;
+            height: 500px;
+           text-align: left;
+          margin-left: 270px;
+        }
+        
+    </style>
+</head>
+<body>
+    <marquee > Mujahidul Islam Rifat</marquee>
+
+
+    <div class="box1">
+    <ul>
+      <form action="#">
+    
+        <b>Frist Name: </b> <input type="text" placeholder=" Type your Frist Name "required><br>
+         <b>Last Name:</b><input type="text" placeholder="Type your Last Name" required><br>
+        <b>E-mail Address:</b><input type="E-mail" placeholder="Type your E-mail addres" required><br>
+        <b>Number:</b> <input type="Number" placeholder="Type yuor Phone Number" required><br>
+        <b>Password:</b><input type="password" placeholder="Type your Password" required><br>
+        <b>Zip code:</b><input type="Zip code" placeholder="Type your Zip Code" required><br>
+        <b>Date of Brith:</b><input type="Date" placeholder="Enter your Date of Brirh" required><br>
+        <b>Time:</b><input type="Time" placeholder="Enter the open Time"><br>
+        Gender:
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="female">female
+        <input type="radio" name="gender" value="Other">Other <br>
+       <b>district:</b> <select name="id">
+            <option value="Noakhali">Noakhali</option>
+            <option value="Bhola">Bhola</option>
+            <option value="Barishal">Barishal</option>
+            <option value="feni">Feni</option>
+            <option value="Comilla">Comilla</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Other">Other</option>
+        </select><br>       
+        <input type="checkbox" name="service" value="HTML">HTML<br>
+        <input type="checkbox" name="service" value="CSS">CSS<br>
+        <input type="file"><br>
+        <textarea rows="7px" cols="25px" name="" id="" placeholder="Type your Comment"></textarea><br>
+        <input type="submit" value="Submit"><br>
+        <input type="Reset" value="Reset"><br>
+    </ul>
+</div>
+</body>
+</html>
